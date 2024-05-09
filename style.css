@@ -1,0 +1,54 @@
+:root {
+    --orange: #ff9057;
+    --dark-blue: #004A8C;
+    --white: #FFF;
+}
+
+@keyframes showUp {
+    0% {
+        z-index: 1000;
+        opacity: 100%;
+    }
+    99% {
+        z-index: 1000;
+    }
+    100% {
+        z-index: -1000;
+        opacity: 0%;
+    }
+}
+
+.cover-screen {
+    animation: 0.75s ease-in-out 0s showUp;
+    opacity: 0%;
+    z-index: -1000;
+}
+
+#persona {
+    background-image: url('/assets/persona.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#balao {
+    background-image: url('/assets/balao-ideias.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#concluir {
+    box-shadow: 0 1px 10px black;
+}
+
+#answer:focus, #answer:hover, #concluir:hover {
+    box-shadow: 0 5px 10px black;
+}
+
+.header {
+    /* background: var(--orange);
+    background: linear-gradient(90deg, #fff 0%, var(--orange) 33%, var(--orange) 66%, #fff 100%); */
+    color: var(--dark-blue)
+}
+

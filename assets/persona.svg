@@ -1,0 +1,16 @@
+<svg width="456" height="288" class="persona-icon" viewBox="0 0 456 288" fill="" xmlns="http://www.w3.org/2000/svg">
+    
+    <defs>
+        <linearGradient id="linear-gradient"
+            x1="0%" y1="0%"
+            x2="100%" y2="0%"
+            gradientTransform="rotate(90)"
+        >
+            <stop offset="0%" stop-color="#0d78d6"/>
+            <stop offset="100%" stop-color="#004A8C"/>
+        </linearGradient>
+    </defs>
+    
+    <circle cx="228" cy="85" r="80" stroke="" fill="url(#linear-gradient)" stroke-width="10"/>
+    <path d="M5 287C5 153.5 447.5 143.5 450.5 287" stroke="" fill="url(#linear-gradient)" stroke-width="10"/>
+</svg>
